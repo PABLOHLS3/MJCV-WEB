@@ -1,0 +1,135 @@
+.hero{
+   background-image:url(../img/bg.png) ;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;     
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 16px 5%;
+}
+
+.links{
+    display: flex;
+    font-family: Montserrat;
+}
+
+a{
+    text-decoration:dotted;
+    color: white;
+
+  
+}   
+    
+ul{
+    
+    display: flex;
+    list-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    width: 560px;
+    
+    
+    :hover{
+        color: #FF002C;
+        transition: 0.6s ease-in;
+       text-decoration: underline;
+       text-underline-offset: 10px;
+        
+        
+    }
+}
+ 
+li{
+    margin-right: 18px;
+    margin-top: 8px;
+}
+
+}
+
+img{
+    height: 40px;
+}
+
+// Titulos Hero
+
+.texts{
+    margin-top: 32px;
+    font-family: "Prata", serif;
+   
+
+    h1{    
+        font-size: 72px;
+        color: aliceblue;
+         }
+
+    p{
+        color: aliceblue;
+        font-family: Rubik;
+        font-weight: 300;
+    }
+        
+}
+
+.verdade{
+    display: flex;
+    justify-content: end;
+    margin-left: 150px;
+    margin-top: 24px;
+    font-weight: 200;
+ 
+   
+
+    
+}
+.jesus{
+    display: flex;
+    margin-top: 24px;
+    
+
+    h1{
+        text-align: center;
+        color: aliceblue;
+        font-size: 120px;
+    }
+    
+ }
+
+.informacoes-finais{
+    margin-top: 32px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    button{
+        background-color: #FF002C;
+        padding: 8px;
+        border: none;
+        color: white;
+        border-radius: 8px;
+        font-size: 12px;
+        margin-left: 100px;
+    
+       
+    }
+    button:hover{
+        background-color: #b6001e;
+        transform: scale(1.1);
+        transition: 0.8s ease;
+    }
+
+    h6{
+        font-weight: 300;
+        margin-right: 60px;
+       
+    }
+}
