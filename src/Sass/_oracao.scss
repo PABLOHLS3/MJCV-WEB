@@ -1,0 +1,40 @@
+.section-oracao{
+    background-image: url('../img/bgoracao.jpg');
+    height: 100vh;
+   
+    background-position: center;
+    background-size: cover;
+
+    .flex-center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .form-oracao{
+        color: aliceblue;
+
+
+        .form{
+            margin-bottom: 16px;
+        }
+
+
+        .button{
+            background-color: #4200FF;
+            border: none;
+            padding: 8px;
+            width: 100px;
+
+        }
+
+        .button:hover{
+            background-color: #4b23b8;
+            transform: scale(1.05);
+            transition: 1s;
+        }
+    }
+
+ 
+}
